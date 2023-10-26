@@ -1,0 +1,18 @@
+.contentMensajeAgregado{
+    background-color:rgb(198, 238, 246);
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #888888;
+    
+    &__mensaje{
+        font-size: 20px;
+        padding: 0 20px;
+        color: rgb(78, 164, 169);;
+    }
+}

@@ -1,0 +1,15 @@
+@use 'header';
+@use 'modalCar';
+@use 'nav';
+@use 'main';
+@use 'mensajeDeAgregado';
+@use 'mensajeCursoAgregado';
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}

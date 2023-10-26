@@ -1,0 +1,104 @@
+[
+    {
+        "precio": 40,
+        "id": 1,
+        "title": "Aplicaciones con ASP .NET 5 MVC, D3, SQL Server, .NET 6",
+        "imgUrl": "https://img-b.udemycdn.com/course/240x135/4592442_ff41_6.jpg",
+        "description": "Desarrollo de una aplicacion integrando graficas de d3.js, incluyendo CRUD y autenticacion JWT.Despliegue en servidor",
+        "teacher": "Adrian Alfonso Alcantara Valencia",
+        "horas" : "17,5",
+        "capacidad": "50"
+        
+    },
+    {
+        "precio": 30,
+        "id": 2,
+        "title": ".NET Core C# EF y MVC: Crea una WebApp completa desde cero",
+        "imgUrl": "https://img-b.udemycdn.com/course/240x135/2795210_dbc2_3.jpg",
+        "description": "Desarrolla con ASP.NET Core 3.1 C# MVC EF MaterializeCSS HTML5 JQUERY y crea tu propio sistema conectado a SQL Server.",
+        "teacher": "Mariano Puglisi",
+        "horas" : "15",
+        "capacidad": "50"
+        
+    },
+    {
+        "precio": 40,
+        "id": 3,
+        "title": "Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL",
+        "imgUrl": "https://img-c.udemycdn.com/course/240x135/980450_7fc0_3.jpg",
+        "description": "Aprende Desarrollo Web con este curso 100% práctico, paso a paso y sin conocimientos previo INCLUYE 4 PROYECTOS FINALES",
+        "teacher": "Juan Pablo De La Torre Valdez",
+        "horas" : "15",
+        "capacidad": "50"
+    },
+    {
+        "precio": 40,
+        "id": 4,
+        "title": "Programando en Blazor - ASP.NET Core 5",
+        "imgUrl": "https://img-b.udemycdn.com/course/240x135/2551555_fe21_5.jpg",
+        "description": "Crea aplicaciones web interactivas con C#",
+        "teacher": "Felipe Gavilan",
+        "horas" : "17.5",
+        "capacidad": "50"
+    },
+    {
+        "precio": 50,
+        "id": 5,
+        "title": "Responsive Web Design: HTML5 + CSS3 for Entrepreneurs 2018",
+        "imgUrl": "https://img-b.udemycdn.com/course/240x135/505208_2307_5.jpg",
+        "description": "Construya una base de codificación como empresario, donde lo guiaré a través de todo el proceso de codificación de su propio sitio web",
+        "teacher": "Andrew Eddy",
+        "horas" : "15.5",
+        "capacidad": "50"
+    },
+    {
+        "precio": 50,
+        "id": 6,
+        "title": "Introducción a Entity Framework Core 6 - De Verdad",
+        "imgUrl": "https://img-c.udemycdn.com/course/240x135/1850536_af55_3.jpg",
+        "description": "Aprende desde cero Entity Framework Core 6",
+        "teacher": "Felipe Gavilan",
+        "horas" : "12.5",
+        "capacidad": "50"
+    },
+    {
+        "precio": 50,
+        "id": 7,
+        "title": "Máster Completo en Java de cero a experto 2022 (+127 hrs)",
+        "imgUrl": "https://img-c.udemycdn.com/course/240x135/3078492_1a27_2.jpg",
+        "description": "Aprende con el mejor curso Java de cero con las mejores prácticas POO, Java EE 9, CDI, JPA, EJB, JSF, Web Services, JAAS",
+        "teacher": "Andres Jose Guzman",
+        "horas" : "18",
+        "capacidad": "50"
+    },
+    {
+        "precio": 30,
+        "id": 8,
+        "title": "Python TOTAL - Programador Avanzado en 16 días",
+        "imgUrl": "https://img-c.udemycdn.com/course/240x135/4189168_9704_3.jpg",
+        "description": "Desde CERO hasta Reconocimiento Facial. Proyectos REALES. Machine Learning, Data Science, Django, IGU, Juegos y más!",
+        "teacher": "Federico Garay",
+        "horas" : "17.5",
+        "capacidad": "50"
+    },
+    {
+        "precio": 45,
+        "id": 9,
+        "title": "Guía Completa JUnit y Mockito incluye Spring Boot Test 2022",
+        "imgUrl": "https://img-c.udemycdn.com/course/240x135/3934340_59cd_7.jpg",
+        "description": "Aprende desde cero JUnit 5 y Mockito usando las mejores prácticas testing TDD, además incluye Unit Test con Spring Boot",
+        "teacher": "Andres Jose Guzman",
+        "horas" : "15",
+        "capacidad": "50"
+    },
+    {
+        "precio": 40,
+        "id": 10,
+        "title": "Guía Completa de Docker & Kubernetes con Spring Boot 2022",
+        "imgUrl": "https://img-b.udemycdn.com/course/240x135/4627048_cee0_3.jpg",
+        "description": "Construye Microservicios Spring Boot, Docker, Kubernetes, Spring Cloud, LoadBalancer, Security JWT, Amazon AWS ECS y EKS",
+        "teacher": "Andres Jose Guzman",
+        "horas" : "18",
+        "capacidad": "50"
+    }
+]

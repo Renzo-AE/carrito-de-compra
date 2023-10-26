@@ -1,0 +1,293 @@
+header {
+  width: 100%;
+  background-color: rgb(87, 173, 250);
+}
+
+.header {
+  margin: auto;
+  position: relative;
+  max-width: 1200px;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 90px;
+}
+.header__iconCar {
+  cursor: pointer;
+  position: relative;
+}
+.header__iconCar__cant {
+  background-color: red;
+  padding: 1px 2px;
+  border-radius: 7px;
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  right: 0px;
+  top: 37px;
+}
+
+.activeModalCar {
+  display: flex !important;
+  width: auto;
+}
+
+.containerCarModal {
+  position: absolute;
+  width: 420px;
+  background-color: rgb(246, 246, 246);
+  padding: 15px 10px;
+  display: none;
+  flex-direction: column;
+  border-radius: 3px;
+  gap: 10px;
+  top: 75%;
+  right: 10px;
+  box-shadow: 0px 5px 15px #888888;
+}
+.containerCarModal .void {
+  text-align: center;
+  padding: 70px 0;
+  background-color: white;
+}
+.containerCarModal__listProducts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.containerCarModal__listProducts-product {
+  width: 400px;
+  display: flex;
+  align-items: start;
+  padding: 7px;
+  gap: 10px;
+  background-color: white;
+  border-radius: 6px;
+}
+.containerCarModal__listProducts-product .imgCurso {
+  width: 100px;
+  height: 56px;
+  object-fit: cover;
+}
+.containerCarModal__listProducts-product .product__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.containerCarModal__listProducts-product .product__info-nameCourse {
+  font-weight: 700;
+}
+.containerCarModal__listProducts-product .product__info-priceCourse {
+  margin-left: 5px;
+  font-size: 15px;
+}
+.containerCarModal__listProducts-product .product__info-teacherCourse {
+  margin-left: 5px;
+  font-size: 12px;
+  color: #6c757d;
+  letter-spacing: 0.2px;
+}
+.containerCarModal__listProducts-product .iconDelete {
+  margin: 2px 0px 0 0;
+  cursor: pointer;
+  color: red;
+  border-radius: 50%;
+}
+.containerCarModal__totalPagar {
+  text-align: center;
+  background-color: rgb(220, 53, 69);
+  color: white;
+  font-weight: 600;
+  padding: 8px;
+}
+.containerCarModal button {
+  background-color: white;
+  padding: 8px;
+  font-weight: 600;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+nav {
+  width: 100%;
+  background: linear-gradient(to right, rgb(117, 29, 81) 10%, rgb(227, 77, 82) 80%);
+}
+
+.nav {
+  max-width: 1200px;
+  margin: auto;
+  color: white;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__container {
+  display: flex;
+  gap: 50px;
+}
+.nav__container svg {
+  width: 30px;
+}
+.nav__container div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+main {
+  background-color: #f6f6f6;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 10px 0 10px;
+}
+.main h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.main__list-courses {
+  margin-top: 40px;
+  display: grid;
+  justify-content: start;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 20px;
+}
+@media (max-width: 750px) {
+  .main__list-courses {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 500px) {
+  .main__list-courses {
+    grid-template-columns: auto;
+  }
+}
+.main__list-courses .course {
+  max-width: 386px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main__list-courses .course img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+.main__list-courses .course__name {
+  padding: 0 15px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 22px;
+}
+.main__list-courses .course__name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.main__list-courses .course__teacher {
+  padding: 0 15px;
+  margin-bottom: 5px;
+}
+.main__list-courses .course__hours {
+  font-size: 14px;
+  color: #6c757d;
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
+.main__list-courses .course__price {
+  font-size: 17px;
+  font-weight: 600;
+  color: #3c73b3;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+.main__list-courses .course button {
+  margin: 0 15px 15px;
+  width: calc(100% - 30px);
+  background-color: white;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(227, 77, 82);
+  border: 1px solid rgb(227, 77, 82);
+  border-radius: 5px;
+  padding: 10px 0;
+  transition: 0.4s background-color;
+}
+.main__list-courses .course button:hover {
+  background-color: rgb(227, 77, 82);
+  color: white;
+  cursor: pointer;
+}
+
+.contentMensaje {
+  background-color: white;
+  width: 450px;
+  height: 150px;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px #888888;
+}
+.contentMensaje__mensaje {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: red;
+}
+@keyframes errorr {
+  0% {
+    opacity: 0.5;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.contentMensajeAgregado {
+  background-color: rgb(198, 238, 246);
+  height: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px #888888;
+}
+.contentMensajeAgregado__mensaje {
+  font-size: 20px;
+  padding: 0 20px;
+  color: rgb(78, 164, 169);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */

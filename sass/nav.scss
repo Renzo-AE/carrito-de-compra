@@ -1,0 +1,29 @@
+nav{
+    width: 100%;
+    background: linear-gradient(to right, rgb(117,29,81) 10%, rgb(227,77,82) 80%);
+}
+
+.nav{
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+
+    &__container{
+        display: flex;
+        gap: 50px;
+
+        & svg{
+            width: 30px;
+        }
+
+        & div{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 7px;
+        }
+    }
+}
